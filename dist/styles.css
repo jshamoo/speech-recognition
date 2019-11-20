@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+#main {
+  font-family: Garamond, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#hello {
+  color: forestgreen;
+}
+
+#search {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: forestgreen;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/183e3638cf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Say the command...</h1>
+      <section id="section-hello">
+        <p><i class="far fa-comment-dots"></i>  Say "Hello"</p>
+        <p id="hello" class="hidden"><i class="fas fa-comment-dots"></i>  Hi Jenny!</p>
+      </section>
+      <section id="lights">
+        <p><i class="far fa-comment-dots"></i> Say "Turn off the light"</p>
+        <p class="on"><i class="far fa-comment-dots"></i> Say "Turn on the light"</p>
+      </section>
+      <section id="section-image-search">
+        <p><i class="far fa-comment-dots"></i>  Say "Show me ..."</p>
+        <p id="search" class="hidden"></p>
+        <div id="gallery" class="hidden"></div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
